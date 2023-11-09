@@ -1,0 +1,118 @@
+body{
+    background-color: #EF6FB9;
+    margin: 0px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    padding: 3px;
+}
+
+main {
+    background-size:cover;
+    background-position: bottom;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #41D6F4;
+}
+
+footer { 
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 8vh;
+    background-color: #EF6FB9;
+    text-align: center;
+    padding-top: 0.7em;
+}
+
+h1 {
+    font-family: 'Sedgwick Ave', cursive;
+    text-transform: uppercase;
+    font-size: 2.6em;
+    text-shadow: 2px 2px #EF6FB9;
+}
+
+h2 {
+    font-family: 'Sedgwick Ave';
+    font-size: 2.4em;
+    text-transform: uppercase;
+    padding-inline: 10px;
+    padding-top: 16px;
+}
+
+h3 {
+    padding-top: 1.3em;
+}
+
+p {
+    padding-inline: 1em;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+
+strong {
+    font-size: 1.2em;
+}
+
+ul {
+    margin: 0px;
+    padding-left: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul > a{
+    width: 30vw;
+    height: 7vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #EF6FB9;
+    border-style: none;
+    font-size: 0px;
+}
+
+/*Classes + ID*/
+.a1{
+    text-decoration: none;
+}
+
+.btnfooter1 {
+    background-image: url(home-icon.png);
+}
+
+.btnfooter2 {
+    background-image: url(vleesvsvega.png);
+}
+
+.btnfooter3 {
+    background-image: url(vjfb-icon.png);
+}
+
+.bg {
+    background-image: url(homefoto.png);
+}
+
+.main2 {
+    height: fit-content;
+}
+
+#waarom {
+    padding: 12px;
+    background-color: #41D6F4;
+    color: #EF6FB9;
+    font-size: 35px;
+    width: 50%;
+    align-self: center;
+    font-weight: 800;
+    border-radius: 50px;
+}

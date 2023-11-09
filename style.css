@@ -70,7 +70,7 @@ ul {
     justify-content: space-between;
 }
 
-ul > a{
+ul > li{
     width: 30vw;
     height: 7vh;
     background-repeat: no-repeat;
